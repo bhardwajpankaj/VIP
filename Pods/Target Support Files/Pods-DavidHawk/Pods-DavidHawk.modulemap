@@ -1,0 +1,6 @@
+framework module Pods_DavidHawk {
+  umbrella header "Pods-DavidHawk-umbrella.h"
+
+  export *
+  module * { export * }
+}

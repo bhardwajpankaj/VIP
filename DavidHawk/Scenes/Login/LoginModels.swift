@@ -24,7 +24,6 @@ struct LoginModel{
         struct ViewModel
         {
             var profile: Profile?
-            
         }
     }
 }

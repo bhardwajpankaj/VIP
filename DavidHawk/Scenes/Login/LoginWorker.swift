@@ -15,8 +15,7 @@ class LoginWorker{
     
     func fetch(params:[String:Any]!, success:@escaping(responseHandler), fail:@escaping(responseHandler))
     {
-        // NOTE: Do the work
-        //call network etc.
+
         Alamofire.request("http://1q3q5.mocklab.io/login", method: .post, parameters: params, encoding: JSONEncoding.default, headers: nil).responseLoginDetails { response in
             switch response.result {
             case .success(let value):

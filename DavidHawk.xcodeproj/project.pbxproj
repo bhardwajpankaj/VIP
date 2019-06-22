@@ -19,19 +19,6 @@
 		8E9B1D0922AE2AB4008E2ADA /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D0822AE2AB4008E2ADA /* LoginWorker.swift */; };
 		8E9B1D0B22AE2AC9008E2ADA /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D0A22AE2AC9008E2ADA /* LoginModels.swift */; };
 		8E9B1D0E22AE2B65008E2ADA /* LoginDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D0D22AE2B65008E2ADA /* LoginDetails.swift */; };
-		8E9B1D2322AE3577008E2ADA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1522AE3576008E2ADA /* GradientView.swift */; };
-		8E9B1D2422AE3577008E2ADA /* ExpandableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1622AE3576008E2ADA /* ExpandableLabel.swift */; };
-		8E9B1D2522AE3577008E2ADA /* FontsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1722AE3577008E2ADA /* FontsConstants.swift */; };
-		8E9B1D2622AE3577008E2ADA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1822AE3577008E2ADA /* Extensions.swift */; };
-		8E9B1D2722AE3577008E2ADA /* SuffixTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1922AE3577008E2ADA /* SuffixTextField.swift */; };
-		8E9B1D2822AE3577008E2ADA /* LargeTapAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1A22AE3577008E2ADA /* LargeTapAreaButton.swift */; };
-		8E9B1D2922AE3577008E2ADA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1B22AE3577008E2ADA /* Reachability.swift */; };
-		8E9B1D2A22AE3577008E2ADA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1C22AE3577008E2ADA /* Constants.swift */; };
-		8E9B1D2B22AE3577008E2ADA /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1D22AE3577008E2ADA /* ShadowView.swift */; };
-		8E9B1D2C22AE3577008E2ADA /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1E22AE3577008E2ADA /* UserDefaults.swift */; };
-		8E9B1D2D22AE3577008E2ADA /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D1F22AE3577008E2ADA /* FloatLabelTextField.swift */; };
-		8E9B1D2F22AE3577008E2ADA /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D2122AE3577008E2ADA /* ColorConstants.swift */; };
-		8E9B1D3022AE3577008E2ADA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B1D2222AE3577008E2ADA /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,19 +37,6 @@
 		8E9B1D0822AE2AB4008E2ADA /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
 		8E9B1D0A22AE2AC9008E2ADA /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
 		8E9B1D0D22AE2B65008E2ADA /* LoginDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDetails.swift; sourceTree = "<group>"; };
-		8E9B1D1522AE3576008E2ADA /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		8E9B1D1622AE3576008E2ADA /* ExpandableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableLabel.swift; sourceTree = "<group>"; };
-		8E9B1D1722AE3577008E2ADA /* FontsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsConstants.swift; sourceTree = "<group>"; };
-		8E9B1D1822AE3577008E2ADA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		8E9B1D1922AE3577008E2ADA /* SuffixTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuffixTextField.swift; sourceTree = "<group>"; };
-		8E9B1D1A22AE3577008E2ADA /* LargeTapAreaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeTapAreaButton.swift; sourceTree = "<group>"; };
-		8E9B1D1B22AE3577008E2ADA /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		8E9B1D1C22AE3577008E2ADA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		8E9B1D1D22AE3577008E2ADA /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
-		8E9B1D1E22AE3577008E2ADA /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
-		8E9B1D1F22AE3577008E2ADA /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
-		8E9B1D2122AE3577008E2ADA /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
-		8E9B1D2222AE3577008E2ADA /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		BE4A15940B7DF2EC8A07E116 /* Pods-DavidHawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DavidHawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DavidHawk/Pods-DavidHawk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,9 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				8E9B1D3222AE550A008E2ADA /* Alamofire */,
-				8E9B1D1422AE353D008E2ADA /* CommonLibs */,
-				8E9B1D1322AE33D6008E2ADA /* GlobalWorker */,
-				8E9B1D1222AE33C9008E2ADA /* Services */,
 				8E9B1D0C22AE2B26008E2ADA /* Models */,
 				8E9B1D0F22AE3391008E2ADA /* Scenes */,
 				8E9B1CEF22A69538008E2ADA /* AppDelegate.swift */,
@@ -138,59 +109,9 @@
 		8E9B1D0F22AE3391008E2ADA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				8E9B1D1122AE33AE008E2ADA /* CohortList */,
-				8E9B1D1022AE33A2008E2ADA /* Signup */,
 				8E9B1D0122AE25E3008E2ADA /* Login */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		8E9B1D1022AE33A2008E2ADA /* Signup */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Signup;
-			sourceTree = "<group>";
-		};
-		8E9B1D1122AE33AE008E2ADA /* CohortList */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CohortList;
-			sourceTree = "<group>";
-		};
-		8E9B1D1222AE33C9008E2ADA /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		8E9B1D1322AE33D6008E2ADA /* GlobalWorker */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = GlobalWorker;
-			sourceTree = "<group>";
-		};
-		8E9B1D1422AE353D008E2ADA /* CommonLibs */ = {
-			isa = PBXGroup;
-			children = (
-				8E9B1D2122AE3577008E2ADA /* ColorConstants.swift */,
-				8E9B1D1C22AE3577008E2ADA /* Constants.swift */,
-				8E9B1D1622AE3576008E2ADA /* ExpandableLabel.swift */,
-				8E9B1D1822AE3577008E2ADA /* Extensions.swift */,
-				8E9B1D1F22AE3577008E2ADA /* FloatLabelTextField.swift */,
-				8E9B1D1722AE3577008E2ADA /* FontsConstants.swift */,
-				8E9B1D1522AE3576008E2ADA /* GradientView.swift */,
-				8E9B1D1A22AE3577008E2ADA /* LargeTapAreaButton.swift */,
-				8E9B1D1B22AE3577008E2ADA /* Reachability.swift */,
-				8E9B1D1D22AE3577008E2ADA /* ShadowView.swift */,
-				8E9B1D1922AE3577008E2ADA /* SuffixTextField.swift */,
-				8E9B1D2222AE3577008E2ADA /* Toast.swift */,
-				8E9B1D1E22AE3577008E2ADA /* UserDefaults.swift */,
-			);
-			path = CommonLibs;
 			sourceTree = "<group>";
 		};
 		8E9B1D3222AE550A008E2ADA /* Alamofire */ = {
@@ -338,26 +259,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9B1D0522AE267D008E2ADA /* LoginPresenter.swift in Sources */,
-				8E9B1D2722AE3577008E2ADA /* SuffixTextField.swift in Sources */,
 				8E9B1CF222A69538008E2ADA /* LoginController.swift in Sources */,
-				8E9B1D2522AE3577008E2ADA /* FontsConstants.swift in Sources */,
 				8E9B1D0B22AE2AC9008E2ADA /* LoginModels.swift in Sources */,
 				8E9B1CF022A69538008E2ADA /* AppDelegate.swift in Sources */,
-				8E9B1D2822AE3577008E2ADA /* LargeTapAreaButton.swift in Sources */,
-				8E9B1D2A22AE3577008E2ADA /* Constants.swift in Sources */,
 				8E9B1D0722AE2690008E2ADA /* LoginRouter.swift in Sources */,
-				8E9B1D2F22AE3577008E2ADA /* ColorConstants.swift in Sources */,
-				8E9B1D2D22AE3577008E2ADA /* FloatLabelTextField.swift in Sources */,
-				8E9B1D2922AE3577008E2ADA /* Reachability.swift in Sources */,
 				8E9B1D0322AE2664008E2ADA /* LoginInteractor.swift in Sources */,
-				8E9B1D2622AE3577008E2ADA /* Extensions.swift in Sources */,
 				8E9B1D0922AE2AB4008E2ADA /* LoginWorker.swift in Sources */,
 				8E9B1D0E22AE2B65008E2ADA /* LoginDetails.swift in Sources */,
-				8E9B1D2C22AE3577008E2ADA /* UserDefaults.swift in Sources */,
-				8E9B1D2422AE3577008E2ADA /* ExpandableLabel.swift in Sources */,
-				8E9B1D3022AE3577008E2ADA /* Toast.swift in Sources */,
-				8E9B1D2B22AE3577008E2ADA /* ShadowView.swift in Sources */,
-				8E9B1D2322AE3577008E2ADA /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

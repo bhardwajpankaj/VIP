@@ -9,16 +9,13 @@
 import Foundation
 import UIKit
 
-protocol LoginPresentationLogic
-{
+protocol LoginPresentationLogic{
     func presentFetchResults(response: LoginModel.Fetch.Response)
 }
 
 class LoginPresenter: LoginPresentationLogic
 {
     weak var viewController: LoginDisplayLogic?
-    
-    // MARK: - Presentation logic
     func presentFetchResults(response: LoginModel.Fetch.Response) {
         // NOTE: Format the response from the Interactor and pass the result back to the View Controller
         let viewModel = LoginModel.Fetch.ViewModel(profile: response.loginObj?.data?.profile)

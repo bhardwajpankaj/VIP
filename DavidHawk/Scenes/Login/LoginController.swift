@@ -19,12 +19,11 @@ class LoginController: UIViewController, LoginDisplayLogic
     var interactor: LoginBusinessLogic?
     var router: (NSObjectProtocol & LoginRoutingLogic & LoginDataPassing)?
     
-    @IBOutlet weak var emailTextField: FloatLabelTextField!
-    @IBOutlet weak var passwordTextField: FloatLabelTextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var forgetPasswordButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signupButton: UIButton!
-    // MARK: Object lifecycle
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)
     {
@@ -37,8 +36,6 @@ class LoginController: UIViewController, LoginDisplayLogic
         super.init(coder: aDecoder)
         setup()
     }
-    
-    // MARK: Setup
     
     private func setup()
     {
@@ -59,20 +56,10 @@ class LoginController: UIViewController, LoginDisplayLogic
     {
         emailTextField.placeholder = "Email Id/Mobile"
         passwordTextField.placeholder = "Password"
-    }
-    // MARK: Routing
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-    {
-        if let scene = segue.identifier {
-            let selector = NSSelectorFromString("routeTo\(scene)WithSegue:")
-            if let router = router, router.responds(to: selector) {
-                router.perform(selector, with: segue)
-            }
-        }
+        emailTextField.text = "abc@gmail.com"
+        passwordTextField.text = "123456"
     }
     
-    // MARK: View lifecycle
     override func viewDidLoad(){
         super.viewDidLoad()
         initializeUI()
@@ -81,6 +68,7 @@ class LoginController: UIViewController, LoginDisplayLogic
     func successLoggedIn(viewModel: LoginModel.Fetch.ViewModel) {
         // SuccessfullyLogged in
         // Navigate to Next Screen
+        print("success")
         router?.changeRootController()
     }
     
@@ -91,8 +79,7 @@ class LoginController: UIViewController, LoginDisplayLogic
     @IBAction func forgetPasswordClicked(_ sender: Any) {
     }
     @IBAction func loginClicked(_ sender: Any) {
-        interactor?.loginRequestInitiated(request: LoginModel.Fetch.Request(emailId: "abc@gmail.com", password: "123456"))
-        
+        interactor?.loginRequestInitiated(request: LoginModel.Fetch.Request(emailId: emailTextField.text ?? "", password: passwordTextField.text ?? ""))
     }
     @IBAction func signupClicked(_ sender: Any) {
     }

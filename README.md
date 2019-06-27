@@ -3,8 +3,9 @@ An Example of Clean Architecture or VIP (Swift)
 
 We are going to discuss Uncle Bob’s Clean architecture here followed by a sample project.
 As we have seen MVC architecture turned up into massive view controllers with respect to time to time change request that leads us into difficulties from testing perspective for each module.
+
 I have written this blog to make use of Clean Architecture with a Login screen example which touches all points of this architecture.
-In Clean Architecture your project structure is built under Scenes with all files with the help of templates. You can download the templates from here and install in your Xcode. 
+In Clean Architecture your project structure is built under Scenes comprises of all files. 
 Below are the components of this Architecture :
 * View
 * Router

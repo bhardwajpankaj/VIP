@@ -13,6 +13,8 @@ Below are the components of this Architecture :
 * Worker
 * Models
 
+![imageedit_2_9681115552](https://user-images.githubusercontent.com/5277297/60242511-716cfc00-98d3-11e9-8e1f-709230093433.png)
+
 ### Protocols are used here throughout the components to pass data and vice versa.
 Protocols are used widely throughout the components to pass & receive data/messages.
 ## View
